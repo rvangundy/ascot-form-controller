@@ -39,14 +39,14 @@ In the following example, the ```person``` model is bound to ```form```. Any cha
 ```javascript
 var ascot = require('ascot2');
 var person = ascot.createModel({ name : { first : 'John', last : 'Doe' }, age : 25 });
-var formController = require('ascot-form-controller')(person);
+var formController = require('ascot-form-controller');
 var formHTML = '<form>' +
               '<input type="text" name="name.first">' +
               '<input type="text" name="name.last">' +
               '<input type="text" name="age">' +
               '</form>';
 
-var form = ascot(formHTML, formController);
+var form = ascot(formHTML, formController(person));
 
 form.appendTo(document.body);
 ```
