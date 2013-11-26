@@ -1,6 +1,6 @@
 {
   "name": "ascot-form-controller",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "src/controller.js",
   "devDependencies": {
     "ascot2"                : "rvangundy/ascot2",
