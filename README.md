@@ -47,5 +47,7 @@ var formHTML = '<form>' +
               '</form>';
 
 var form = ascot(formHTML, formController);
+
+form.appendTo(document.body);
 ```
 
