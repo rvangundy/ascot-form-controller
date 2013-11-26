@@ -1,6 +1,6 @@
 {
   "name": "ascot-form-controller",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "src/controller.js",
   "devDependencies": {
     "ascot2"                : "rvangundy/ascot2",
@@ -20,6 +20,6 @@
   },
   "repository": {
     "type" : "git",
-    "url"  : "https://github.com/rvangundy/ascot-form-controller.git"
+    "url"  : "git://github.com/rvangundy/ascot-form-controller.git"
   }
 }
