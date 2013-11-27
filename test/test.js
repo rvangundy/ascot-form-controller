@@ -14,9 +14,11 @@ describe('FormProxy', function () {
         seasons : ['spring', 'summer']
     });
 
+    var controller = formController(window.model);
+
     document.body.appendChild(app.element);
 
-    formController(window.model)(app.element);
+    controller(app.element);
 
     describe('set', function() {
 
